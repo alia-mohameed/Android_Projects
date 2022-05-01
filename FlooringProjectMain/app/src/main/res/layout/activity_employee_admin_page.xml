@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="edu.qc.seclass.fim.employeeAdminPage"
+        tools:ignore="ExtraText"><![CDATA[
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.qc.seclass.fim.employeeAdminPage"
+    tools:layout_editor_absoluteX="-58dp"
+    tools:layout_editor_absoluteY="-247dp">
+
+    
+
+    
+
+    
+
+        
+
+        ]]>
+
+        <EditText
+            android:id="@+id/TileStyleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="TileStyle"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/textView15"
+            app:layout_constraintEnd_toEndOf="@+id/TileNameText" />
+
+        <EditText
+            android:id="@+id/WoodStyleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="WoodStyle"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/textView19"
+            app:layout_constraintEnd_toEndOf="@+id/WoodNameText" />
+
+        <EditText
+            android:id="@+id/LaminateStyleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="LaminateStyle"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/textView22"
+            app:layout_constraintEnd_toEndOf="@+id/LaminateNameText" />
+
+        <EditText
+            android:id="@+id/VinylNameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="VinylName"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/textView23"
+            app:layout_constraintEnd_toEndOf="@+id/LaminateStyleText" />
+
+        <EditText
+            android:id="@+id/VinylStyleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="VinylStyle"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/textView24"
+            app:layout_constraintEnd_toEndOf="@+id/VinylNameText" />
+
+        <EditText
+            android:id="@+id/FloorNameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="FloorName"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="@+id/VinylStyleText"
+            app:layout_constraintTop_toBottomOf="@+id/VinylStyleText" />
+
+        <EditText
+            android:id="@+id/WoodSpeciesText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="WoodSpecies"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="@+id/WoodStyleText"
+            app:layout_constraintTop_toBottomOf="@+id/WoodStyleText" />
+
+        <EditText
+            android:id="@+id/StoneNameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="StoneName"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/textView16"
+            app:layout_constraintEnd_toEndOf="@+id/TileStyleText" />
+
+        <EditText
+            android:id="@+id/StoneStyleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="StoneStyle"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/textView17"
+            app:layout_constraintEnd_toEndOf="@+id/StoneNameText" />
+
+        <EditText
+            android:id="@+id/WoodNameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="WoodName"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/textView18"
+            app:layout_constraintEnd_toEndOf="@+id/StoneStyleText" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="LaminateName"
+            app:layout_constraintStart_toStartOf="@+id/textView20"
+            app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+        <EditText
+            android:id="@+id/StoreIDText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="58dp"
+            android:ems="10"
+            android:hint="StoreID"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/textView34"
+            app:layout_constraintStart_toEndOf="@+id/textView34" />
+
+        <EditText
+            android:id="@+id/FloorBrandText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="FloorBrand"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/textView12"
+            app:layout_constraintEnd_toEndOf="@+id/FloorPriceText" />
+
+        <EditText
+            android:id="@+id/FloorSizeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="FloorSize"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/textView10"
+            app:layout_constraintEnd_toEndOf="@+id/FloorColorText" />
+
+        <EditText
+            android:id="@+id/StoreAddressText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="StoreAddress"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/StoreAddress"
+            app:layout_constraintEnd_toEndOf="@+id/StoreIDText" />
+
+        <EditText
+            android:id="@+id/TileNameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="TileName"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="@+id/FloorTypeText"
+            app:layout_constraintTop_toBottomOf="@+id/FloorTypeText" />
+
+        <EditText
+            android:id="@+id/FloorIDText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="FloorID"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/textView29"
+            app:layout_constraintEnd_toEndOf="@+id/StoreAddressText" />
+
+        <EditText
+            android:id="@+id/FloorTypeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="FloorType"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/textView13"
+            app:layout_constraintEnd_toEndOf="@+id/FloorBrandText" />
+
+        <EditText
+            android:id="@+id/FloorColorText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="FloorColor"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/textView9"
+            app:layout_constraintEnd_toEndOf="@+id/FloorIDText" />
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="24dp"
+            android:text="StoreID"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="FloorColor"
+            app:layout_constraintStart_toStartOf="@+id/textView29"
+            app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="FloorSize"
+            app:layout_constraintStart_toStartOf="@+id/textView9"
+            app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="FloorPrice"
+            app:layout_constraintStart_toStartOf="@+id/textView10"
+            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="FloorBrand"
+            app:layout_constraintStart_toStartOf="@+id/textView11"
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="FloorType"
+            app:layout_constraintStart_toStartOf="@+id/textView12"
+            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="TileName"
+            app:layout_constraintStart_toStartOf="@+id/textView13"
+            app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="TileStyle"
+            app:layout_constraintStart_toStartOf="@+id/textView14"
+            app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="StoneName"
+            app:layout_constraintStart_toStartOf="@+id/textView15"
+            app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="FloorName"
+            app:layout_constraintStart_toStartOf="@+id/textView24"
+            app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="WoodStyle"
+            app:layout_constraintStart_toStartOf="@+id/textView18"
+            app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="WoodSpecies"
+            app:layout_constraintStart_toStartOf="@+id/textView19"
+            app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="StoneStyle"
+            app:layout_constraintStart_toStartOf="@+id/textView16"
+            app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="WoodName"
+            app:layout_constraintStart_toStartOf="@+id/textView17"
+            app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="VinylName"
+            app:layout_constraintStart_toStartOf="@+id/textView22"
+            app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="LaminateStyle"
+            app:layout_constraintStart_toStartOf="@+id/textView21"
+            app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="VinylStyle"
+            app:layout_constraintStart_toStartOf="@+id/textView23"
+            app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="FloorID"
+            app:layout_constraintStart_toStartOf="@+id/StoreAddress"
+            app:layout_constraintTop_toBottomOf="@+id/StoreAddress" />
+
+        <TextView
+            android:id="@+id/StoreAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="StoreAddress"
+            app:layout_constraintStart_toStartOf="@+id/textView34"
+            app:layout_constraintTop_toBottomOf="@+id/textView34" />
+
+        <Button
+            android:id="@+id/updateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp"
+            android:text="Update"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/textView26"
+            app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+        <Button
+            android:id="@+id/addButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            app:layout_constraintBottom_toBottomOf="@+id/deleteButton"
+            app:layout_constraintEnd_toEndOf="@+id/FloorNameText" />
+
+        <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:text="Delete"
+            app:layout_constraintBottom_toBottomOf="@+id/updateButton"
+            app:layout_constraintEnd_toStartOf="@+id/addButton"
+            app:layout_constraintStart_toEndOf="@+id/updateButton" />
+
+        <EditText
+            android:id="@+id/FloorPriceText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="FloorPrice"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/textView11"
+            app:layout_constraintEnd_toEndOf="@+id/FloorSizeText" />
+
+        <EditText
+            android:id="@+id/LaminateNameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="LaminateName"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/textView21"
+            app:layout_constraintEnd_toEndOf="@+id/WoodSpeciesText" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

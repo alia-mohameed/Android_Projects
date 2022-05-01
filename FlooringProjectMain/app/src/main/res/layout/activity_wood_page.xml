@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="edu.qc.seclass.fim.woodPage">
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="71dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="48dp"
+        android:text="Wood"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="Wood Style"
+        app:layout_constraintStart_toEndOf="@+id/textView27"
+        app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+    <Button
+        android:id="@+id/solidButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Solid"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+    <Button
+        android:id="@+id/bambooButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bamboo"
+        app:layout_constraintEnd_toEndOf="@+id/engineeredButton"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="@+id/engineeredButton"
+        app:layout_constraintTop_toBottomOf="@+id/engineeredButton" />
+
+    <Button
+        android:id="@+id/engineeredButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Engineered"
+        app:layout_constraintEnd_toEndOf="@+id/solidButton"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="@+id/solidButton"
+        app:layout_constraintTop_toBottomOf="@+id/solidButton" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Wood Species"
+        app:layout_constraintStart_toStartOf="@+id/textView28"
+        app:layout_constraintTop_toBottomOf="@+id/bambooButton" />
+
+    <Button
+        android:id="@+id/hickoryButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Hickory"
+        app:layout_constraintEnd_toEndOf="@+id/oakButton"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="@+id/oakButton"
+        app:layout_constraintTop_toBottomOf="@+id/oakButton" />
+
+    <Button
+        android:id="@+id/mapleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Maple"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/hickoryButton"
+        app:layout_constraintStart_toStartOf="@+id/hickoryButton"
+        app:layout_constraintTop_toBottomOf="@+id/hickoryButton"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/oakButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="oak"
+        app:layout_constraintEnd_toEndOf="@+id/bambooButton"
+        app:layout_constraintStart_toStartOf="@+id/bambooButton"
+        app:layout_constraintTop_toBottomOf="@+id/textView30" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

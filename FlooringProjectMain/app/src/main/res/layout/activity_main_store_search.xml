@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="edu.qc.seclass.fim.MainStoreSearch">
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:text="Floor Search"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/floorSearchText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:ems="10"
+        android:hint="Enter floor name here"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView25"
+        app:layout_constraintStart_toEndOf="@+id/textView25" />
+
+    <Button
+        android:id="@+id/searchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Search"
+        app:layout_constraintEnd_toEndOf="@+id/floorSearchText"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="@+id/textView25"
+        app:layout_constraintTop_toBottomOf="@+id/floorSearchText" />
+
+    <Button
+        android:id="@+id/woodButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Wood"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchButton" />
+
+    <Button
+        android:id="@+id/vinylButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vinyl"
+        app:layout_constraintEnd_toEndOf="@+id/woodButton"
+        app:layout_constraintStart_toStartOf="@+id/woodButton"
+        app:layout_constraintTop_toBottomOf="@+id/woodButton" />
+
+    <Button
+        android:id="@+id/stoneButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stone"
+        app:layout_constraintEnd_toEndOf="@+id/vinylButton"
+        app:layout_constraintStart_toStartOf="@+id/vinylButton"
+        app:layout_constraintTop_toBottomOf="@+id/vinylButton" />
+
+    <Button
+        android:id="@+id/laminateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Laminate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tileButton"
+        app:layout_constraintStart_toStartOf="@+id/tileButton"
+        app:layout_constraintTop_toBottomOf="@+id/tileButton"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/tileButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tile"
+        app:layout_constraintEnd_toEndOf="@+id/stoneButton"
+        app:layout_constraintStart_toStartOf="@+id/stoneButton"
+        app:layout_constraintTop_toBottomOf="@+id/stoneButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

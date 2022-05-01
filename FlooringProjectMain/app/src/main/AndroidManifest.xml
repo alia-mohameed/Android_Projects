@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.flooringprojectmain">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FlooringProjectMain">
+        <activity
+            android:name="edu.qc.seclass.fim.stonePage"
+            android:exported="false" />
+        <activity
+            android:name="edu.qc.seclass.fim.laminatePage"
+            android:exported="false" />
+        <activity
+            android:name="edu.qc.seclass.fim.tilePage"
+            android:exported="false" />
+        <activity
+            android:name="edu.qc.seclass.fim.vinylPage"
+            android:exported="false" />
+        <activity
+            android:name="edu.qc.seclass.fim.woodPage"
+            android:exported="false" />
+        <activity
+            android:name="edu.qc.seclass.fim.employeeAdminPage"
+            android:exported="false" />
+        <activity
+            android:name="edu.qc.seclass.fim.MainStoreSearch"
+            android:exported="false" />
+        <activity
+            android:name="edu.qc.seclass.fim.customerRegistrationPage"
+            android:exported="false" />
+        <activity
+            android:name="edu.qc.seclass.fim.customerLoginPage"
+            android:exported="false" />
+        <activity
+            android:name="edu.qc.seclass.fim.employeeLoginPage"
+            android:exported="false" />
+        <activity
+            android:name="edu.qc.seclass.fim.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
